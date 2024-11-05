@@ -1,7 +1,6 @@
 
-# Minesweeper on Python
-<a src="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=yellow"></a>
 # Minesweeper Game Project
+<a src="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=yellow"></a>
 
 ## Overview
 This Minesweeper game is a desktop application developed using Python and PyQt5. The project is structured using the Model-View-Controller (MVC) software architecture pattern, which organizes the game into separate modules for handling data (Model), user interface (View), and input logic (Controller). This approach improves maintainability and enables easier future enhancements.
