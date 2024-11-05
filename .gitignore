@@ -4,7 +4,15 @@
 .venv
 venv
 
-pylance/
+# Python
 __pycache__/
+*.py[cod]
 
-test.py
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Другие
+*.egg-info/
+*.egg

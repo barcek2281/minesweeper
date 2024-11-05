@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QMainWindow, QWidget, QGridLayout
 from PyQt5.QtWidgets import QStatusBar, QAction
 
-from src.Engine.gameSetup import GameSetup
+from Engine.gameSetup import GameSetup
 
 HEIGHT = 600
 WIDTH = 600

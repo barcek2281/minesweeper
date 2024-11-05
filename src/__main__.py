@@ -11,7 +11,7 @@ import mainWindow
 
 if __name__ == '__main__':
     app = QApplication([])
-    #app.setStyle('Windows')
+    app.setStyle('Windows')
     window = mainWindow.MainWindow()
     window.show()
     app.exec_()

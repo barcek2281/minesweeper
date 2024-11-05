@@ -3,11 +3,11 @@ import logging
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QPushButton, QGridLayout, QMessageBox
 
-from src.style.styleState import StyleState
-from src.utils.utils import Utils
+from style.styleState import StyleState
+from utils.utils import Utils
 #from src.buttonFactory import playground
 
-logging.basicConfig(level=logging.INFO, format="%(name)s %(asctime)s %(levelname)s %(message)s")
+logging.basicConfig(level=logging.INFO, format="%(name)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
 
 

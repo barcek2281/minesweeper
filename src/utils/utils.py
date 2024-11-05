@@ -4,7 +4,7 @@ import math
 
 from PyQt5.QtWidgets import QPushButton
 
-from src.style.styleState import StyleState
+from style.styleState import StyleState
 
 class Utils:
     compnents = ((-1, -1),

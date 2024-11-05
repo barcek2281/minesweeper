@@ -6,15 +6,26 @@
  последущие цифры, обазначают число мин рядом
 """
 import os
+import sys
 
 from PyQt5.QtCore import QSize
 from PyQt5.QtWidgets import QPushButton
 from PyQt5.QtGui import QIcon
 
+def resource_path(relative_path):
+    """ Возвращает путь к ресурсу, который работает как для исходного кода, так и для скомпилированного приложения """
+    try:
+        # Если приложение запущено в собранной версии
+        base_path = sys._MEIPASS
+    except Exception:
+        # Если приложение запущено из исходников
+        base_path = os.path.abspath("..")
+    return os.path.join(base_path, relative_path)
+
 CURRENT_DIR = os.path.dirname(__file__)
-FLAG_PATH = os.path.join(CURRENT_DIR, "../../assets/images/flag.png")
-MINE_PATH = os.path.join(CURRENT_DIR, "../../assets/images/mine.png")
-CROSS_PATH = os.path.join(CURRENT_DIR, "../../assets/images/red_cross.png")
+FLAG_PATH = resource_path("assets/images/flag.png")
+MINE_PATH = resource_path("assets/images/mine.png")
+CROSS_PATH = resource_path("assets/images/red_cross.png")
 
 class StyleState:
     color = {

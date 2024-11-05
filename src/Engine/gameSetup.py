@@ -1,7 +1,7 @@
 
 from PyQt5.QtWidgets import QPushButton
 
-from src.Engine.gameFactory import GameFactory
+from Engine.gameFactory import GameFactory
 
 class GameSetup:
     def __init__(self, main_window, layout):
