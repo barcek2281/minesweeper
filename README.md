@@ -56,3 +56,7 @@ Include the following UML diagrams for clarity:
 - **Limitations:** The game currently supports only one difficulty level, with no support for custom configurations. All icons and graphics need to be available in the `assets/images` directory.
 
 This structured approach in documentation captures each design aspect, improving both comprehension and future maintenance.
+
+- https://github.com/barcek2281%20 Ayanat Zhunis
+- https://github.com/Butternut01 Asanali Bayadilov
+- https://github.com/Zufar-zfr%20 Zufar Abdulvagap
